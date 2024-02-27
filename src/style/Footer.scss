@@ -1,0 +1,30 @@
+@import './variables.scss';
+
+.footer {
+    display: flex;
+    background-color: $color1;
+    color: white;
+    justify-content: space-around;
+    height: 452px;
+    // width: 1592px;
+    
+
+    ul {
+        list-style: none;
+        margin-top: 100px;
+        line-height: 35px;
+    }
+    #arrow{
+        // position: absolute;
+        top: 2110px;
+        right: 170px;
+    }
+    .state{
+        // position: absolute;
+        // top: 2100px;
+        // right: 200px;
+        // color: black;
+    }
+
+   
+}

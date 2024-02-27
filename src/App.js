@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import AllDeals from './component/AllDeals.jsx';
+import Deals from './component/AllDeals.jsx';
+import Footer from './component/Footer.jsx';
+import './component/Navbar.jsx'
+import Navbar from './component/Navbar.jsx';
+import SignUp from './component/SignUp.jsx';
+import './component/AllCompo1.jsx';
+import AllCompo1 from './component/AllCompo1.jsx';
+import Tools from './component/Tools.jsx';
+import Home from './component/Home.jsx';
+import Info from './component/Info.jsx';
+import Compo2 from './component/Compo2.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div>
+    <Navbar/>
+    <Info/>
+    <Tools/>
+    <Home/>
+    <AllCompo1/>
+    <Compo2/>
+    <AllDeals/>
+    <SignUp/>
+    <Footer/>
+   </div>
   );
 }
 

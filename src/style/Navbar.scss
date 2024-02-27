@@ -1,0 +1,47 @@
+@import './variables.scss';
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $color1;
+
+    input {
+        width: 258px;
+        height: 37px;
+        top: 14px;
+        left: 480px;
+        border-radius: 8px;
+        border: 1px;
+        border: 1px solid #E1E4E6;
+        background: #FFFFFF;
+
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        color:#D1D6DA;
+        font-size: 14px;
+        width: 40%;
+    }
+
+    h1 {
+        font-size: 48px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 102px;
+    }
+    #search{
+        font-size: 24px;
+        position: absolute;
+        left: 240px;
+    }
+}

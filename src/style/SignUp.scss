@@ -1,0 +1,25 @@
+@import '../App.scss';
+
+.sign-up{
+    height: 171px;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    button{
+        background: $color2;
+        border: none;
+        color: $color3;
+        padding: 10px;
+        border-radius: 12px;
+    }
+    input{
+        width: 230px;
+        height: 30px;
+        border: none;
+        // display: none;
+        // border-color: #1B88F4;
+        ;
+    }
+    
+}

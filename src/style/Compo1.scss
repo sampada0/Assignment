@@ -1,0 +1,45 @@
+@import '../App.scss';
+
+.three {
+    display: flex;
+    height: 255px;
+    width: 1204px;
+
+    .no {
+        color: $rating;
+        font-size: 32px;
+    }
+
+    .tx2 {
+        font-size: 14px;
+        color: $rating;
+    }
+
+    .text {
+        font-size: 16px;
+        color: #1B88F4;
+        
+    }
+
+    .btn {
+
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        color: white;
+        padding: 10px;
+        width: 150px;
+        border-radius: 12px;
+        border: none;
+        background: $color2;
+
+    }
+    .two{
+        width: 135px;
+        height: 118px;
+        background: #F3F9FF;
+        
+
+    }
+
+}
