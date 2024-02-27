@@ -13,17 +13,19 @@ import Compo2 from './component/Compo2.jsx';
 
 function App() {
   return (
-   <div>
-    <Navbar/>
-    <Info/>
-    <Tools/>
-    <Home/>
-    <AllCompo1/>
-    <Compo2/>
-    <AllDeals/>
-    <SignUp/>
-    <Footer/>
-   </div>
+    <div>
+      <Navbar />
+      <Info />
+      <Tools />
+      <Home />
+      
+      <AllCompo1 />
+      <Compo2 />
+      
+      <AllDeals />
+      <SignUp />
+      <Footer />
+    </div>
   );
 }
 

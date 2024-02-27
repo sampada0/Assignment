@@ -3,7 +3,7 @@ import '../style/Tools.scss';
 
 const Tools = () => {
   return (
-    <div>
+    <div className='tools-container'>
       <ul className='tool'>
         <li>Tools</li>
         <li>AWS Builder</li>

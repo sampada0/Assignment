@@ -27,10 +27,9 @@ function Footer() {
             </div>
 
             <div className="text">
+                <br /><br /><br /><br />
                 <ul style={{display:'flex'}}>
-                    <li className='state'>United States</li>
-                    <i id='arrow' class="fa-solid fa-angle-down" style={{color:'white'}}></i>
-
+                    <li className='state'>United States <i id='arrow' class="fa-solid fa-angle-down" style={{color:'white'}}></i></li>
                 </ul>
             </div>
         </div>

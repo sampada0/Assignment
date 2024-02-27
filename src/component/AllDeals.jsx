@@ -8,42 +8,44 @@ import '../style/deals.scss'
 const AllDeals = () => {
   const response = [
     {
-      // image: img,
+      image: img,
       discount: '20%OFF',
       time: 'Limited time',
       text: 'Webbuilder 1',
       text2: 'Computer  Modern clasic with wix support',
       price: 39.96,
       price2: '$49.96',
-      off: '(20% Off)'
-
+      off: '(20% Off)',
+      btnTxt: ''
     },
     {
-      // image: img,
+      image: img,
       discount: '20% OFF',
       time: 'Limited time',
       text: 'Webbuilder 1',
       text2: 'Computer  Modern clasic with wix support',
       price: 39.96,
       price2: '$49.96',
-      off: '(20% Off)'
+      off: '(20% Off)',
+      btnTxt: 'View Deal'
 
     },
     {
-      // image: '',
+      image: img,
       discount: '20% OFF',
       time: 'Limited time',
       text: 'Webbuilder 1',
       text2: 'Computer  Modern clasic with wix  support',
       price: 39.96,
       price2: '$49.96',
-      off: '(20% Off)'
+      off: '(20% Off)',
+      btnTxt: 'View Deal'
 
     }
   ];
   return (
+  
     <div className='deal'>
-
 
       {
         
@@ -58,6 +60,7 @@ const AllDeals = () => {
             price={elem.price}
             price2={elem.price2}
             off={elem.off}
+            btnTxt={elem.btnTxt}
           />
         ))}
     </div>

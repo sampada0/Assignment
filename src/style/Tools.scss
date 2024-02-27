@@ -1,13 +1,13 @@
-.tool{
-    height: 36px;
-    display: flex;
-    list-style-type: none;
-    font-size: 13px;
-    color: #4B5665;
-    justify-content: left;
-    gap: 40px;
+.tools-container {
+    margin: 15px 115px;
 
-    margin-left: 100px;
-    // margin-top: 40px;
-
+    .tool {
+        display: flex;
+        justify-content: flex-start;
+        list-style-type: none;
+        font-size: 13px;
+        color: #4B5665;
+        gap: 80px;
+        // margin-top: 40px;
+    }
 }

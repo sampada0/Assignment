@@ -1,43 +1,65 @@
 @import '../App.scss';
 
-.deal{
-    // height: 125px;
+.deal {
     width: 333px;
-   
     margin: auto;
-    .dis{
-        background-color:rgb(244, 239, 239);
+
+    .dis {
+        background-color: rgb(244, 239, 239);
         width: 69px;
         justify-content: center;
-        display: flex;    
-    }
-    
-    .oftxt{
         display: flex;
     }
-    .num{
+
+    .oftxt {
         display: flex;
-    
+        margin-bottom: 10px;
     }
-    .p1{
-        font-size: 20px;
+
+    .num {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+
+        .p1 {
+            font-size: 20px;
+        }
+
+        .p2 {
+            font-size: 14px;
+            color: #9FA9B3;
+            width: 40px;
+        }
+
+        .of {
+            color: red;
+            font-size: 13px;
+        }
     }
-    .p2{
-        font-size: 14px;
-         color: #9FA9B3;
-        width: 40px;
-    }
-    .of{
-        color: red;
-        font-size: 13px;
-    }
-    button{
+
+    button {
         color: white;
         padding: 10px;
         width: 200px;
+        height: 40px;
         border-radius: 12px;
         border: none;
-         background: $color2;
-        ;
+        background: $color2;
+    }
+
+    .text {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    img {
+        margin-bottom: 40px;
+    }
+
+    .cen {
+        text-align: center;
+        margin-bottom: 10px;
     }
 }

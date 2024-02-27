@@ -1,45 +1,87 @@
 @import '../App.scss';
 
+
+.all-comp-container {
+    margin: 15px 115px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.my-2 {
+    margin: 10px 0;
+}
+
 .three {
     display: flex;
-    height: 255px;
-    width: 1204px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
 
-    .no {
-        color: $rating;
-        font-size: 32px;
+    .one {
+        margin: 0 55px;
+
+        .para2 {
+            padding-left: 25px;
+            margin-bottom: 20px;
+        }
+
     }
 
-    .tx2 {
-        font-size: 14px;
-        color: $rating;
-    }
+
+   
 
     .text {
         font-size: 16px;
         color: #1B88F4;
-        
-    }
-
-    .btn {
-
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        color: white;
-        padding: 10px;
-        width: 150px;
-        border-radius: 12px;
-        border: none;
-        background: $color2;
 
     }
-    .two{
+
+    
+
+    .two {
         width: 135px;
-        height: 118px;
-        background: #F3F9FF;
-        
-
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        // margin-top: 20px;
+        div{
+            background: #F3F9FF;
+            
+            .no {
+                color: $rating;
+                font-size: 32px;
+            }
+            
+            .tx2 {
+                font-size: 14px;
+                color: $rating;
+            }
+            
+            
+        }
+        .btn {
+            color: white;
+            padding: 10px;
+            width: 150px;
+            border-radius: 12px;
+            border: none;
+            background: $color2;
+            margin-top: 100px;
+            
+        }
     }
 
+}
+img{
+    width: 170px;
+}
+.t{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
 }
